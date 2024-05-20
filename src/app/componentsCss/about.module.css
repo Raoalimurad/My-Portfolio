@@ -1,0 +1,76 @@
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.aboutPage{
+    padding-top: 100px;
+}
+.aboutContent{
+    width: 50%;
+    margin-top: 30px;
+}
+.aboutContent h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    color: cyan;
+    margin-bottom: 8px;
+}
+.aboutContent p{
+    color: white;
+}
+.heading{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.heading span{
+    color: cyan;
+}
+.userImg {
+    width: 400px; /* Adjust the width to your desired size */
+    height: 400px; 
+    margin-top: 30px;/* Adjust the height to your desired size */
+}
+
+.userImg img {
+    width: 100%; /* Ensure the image fills its container */
+    height: 100%; /* Ensure the image fills its container */
+   object-fit: cover;/* Maintain aspect ratio while filling container */
+    border-radius: 50%;
+    border: 7px solid cyan; /* Light purple border */
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan,0 0 50px cyan,0 0 100px cyan, 0 0 20px rgba(138, 43, 226, 0.7);
+ 
+}
+
+.btn{
+    background: transparent;
+      color: white;
+      border: 3px solid cyan;
+      padding: 8px;
+      width: 120px;
+      border-radius: 12px;
+      margin-top: 25px;
+      margin-left: 6px;
+    
+    }
+    .btn:hover{
+      box-shadow: 0 0 5px cyan, 0 0 25px cyan,0 0 50px cyan
+    }
+    @media (max-width: 1150px){
+        .aboutContent{
+            width: 100%;
+            text-align: center;
+            
+        }
+        .aboutContent p{
+            width: 60%;
+            margin: 5px auto;
+        }
+        .aboutContent h3{
+            margin-top: 50px;
+        }
+    }

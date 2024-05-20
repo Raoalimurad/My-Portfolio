@@ -1,0 +1,143 @@
+.hero{
+    padding-top: 150px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+.userImg {
+    width: 400px; /* Adjust the width to your desired size */
+    height: 400px; 
+    margin-top: 30px;/* Adjust the height to your desired size */
+}
+
+.userImg img {
+    width: 100%; /* Ensure the image fills its container */
+    height: 100%; /* Ensure the image fills its container */
+   object-fit: cover;/* Maintain aspect ratio while filling container */
+    border-radius: 50%;
+    border: 7px solid cyan; /* Light purple border */
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan,0 0 50px cyan,0 0 100px cyan, 0 0 20px rgba(138, 43, 226, 0.7);
+ 
+}
+.info{
+    width: 660px;
+    margin-top: 30px;
+}
+.info h3{
+    font-size: 35px;
+}
+.info h1{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.socialIcon{
+    display: flex;
+    margin-top: 35px;
+    gap: 30px;
+
+   
+}
+.socialIcon>*{
+   color: cyan;
+   border: 3px solid cyan;
+   padding: 8px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   cursor: pointer;
+   text-align: center;
+   
+}
+
+.socialIcon>*:hover{
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan,0 0 50px cyan
+}
+
+.btn{
+background: transparent;
+  color: white;
+  border: 3px solid cyan;
+  padding: 8px;
+  width: 140px;
+  border-radius: 12px;
+  margin-top: 25px;
+  margin-left: 6px;
+
+}
+.btn:hover{
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan,0 0 50px cyan
+}
+
+
+
+
+.typingAnimationcontainer {
+    display: inline-flex; /* Use flexbox to maintain stability */
+    align-items: center; /* Align text vertically */
+  }
+  
+  .typingAnimation{
+    overflow: hidden; /* Ensures the text is initially hidden */
+    border-right: 2px solid #007E85; /* Simulates the cursor */
+    white-space: nowrap; /* Prevents the text from wrapping */
+    animation: typing 5s steps(35) 2s infinite, /* Adjust the duration as needed */
+               fadeInUp 1s ease-out ;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Adjust the distance if needed */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+
+  @media (max-width: 1150px){
+    .socialIcon{
+       justify-content: center;
+    }
+    .info{
+      width: 100%;
+    }
+    .hero{
+      text-align: center;
+    }
+    .info p{
+      width: 60%;
+      margin: 5px auto;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info h3 span{
+    color: cyan;
+    font-weight: 700;
+}
+
+

@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgb(4, 0, 14) ;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    
+    
+}
+.icon{
+    color: aqua;
+    font-size: 30px;
+    margin-right: 8px;
+    display: none;
+
+}
+.logo{
+    font-size: 26px;
+    margin-left: 9px;
+    color: cyan;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar {
+    display: flex;
+    gap: 15px;
+    padding: 8px;
+    
+}
+.navbar li a{
+    font-size: 23px;
+    margin-right: 5px;
+    color: cyan;
+}
+.navbar li a:hover{
+    font-weight: 500;
+}
+
+
+@media (max-width: 690px) {
+    .icon {
+      display: flex; /* Show the icon when screen width is less than 690px */
+    }
+    .navbar{
+        display: none;
+    }
+    .showNavbar {
+        display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 22px;
+    top: 97%;
+    right: 0%;
+    width: 300px;
+    text-align: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+        
+      }
+
+  }

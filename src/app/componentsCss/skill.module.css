@@ -1,0 +1,193 @@
+
+.skill{
+    padding-top: 80px;
+    color: white;
+}
+.skill h1{
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.skillContent{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.technicalSkill{
+  width: 45%;
+}
+.tag1{
+  font-size: 30px;
+  color: orangered;
+}
+.tag2{
+  font-size: 30px;
+  color: blue;
+}
+.tag3{
+  font-size: 30px;
+  color:yellow;
+}
+.tag4{
+  font-size: 30px;
+  color: rgb(70, 169, 207);
+}
+.tag5{
+  font-size: 30px;
+  color: greenyellow;
+}
+.tag6{
+  font-size: 30px;
+  color: green;
+}
+.tag7{
+  font-size: 30px;
+  color: yellow;
+}
+.tag8{
+  font-size: 30px;
+  color: blue;
+}
+.skill h1 span{
+  color: cyan;
+}
+.technicalSkilldiv{
+  display: flex;
+  gap: 30px;
+}
+.technicalSkilldiv div {
+    margin-bottom: 15px;
+  }
+.heading{
+ font-size: 27px;
+ text-align: center;
+ margin-top: 15px;
+ margin-bottom: 20px;
+ font-weight: 700;
+ 
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.progessBar progress {
+    width: 280px;
+    height: 20px;
+    appearance: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f0f0; 
+   
+  }
+  
+  .progessBar progress::-webkit-progress-bar {
+    background-color: #f0f0f0; 
+    border-radius: 10px;
+
+   
+  }
+  
+  .progessBar progress::-webkit-progress-value {
+    background-color:cyan;
+    border-radius: 10px;
+  }
+
+
+
+
+
+
+
+
+/* professional part */
+
+  .ProfessionalSkill{
+    width: 45%;
+  
+  }
+  .ProfessionalSkill h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
+  }
+  .row .col .skill {
+    width: 220px;
+    height: 220px;
+    position: relative;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    margin-top: 30px;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    
+  }
+  .row .col:nth-child(1) .skill {
+    background: conic-gradient(cyan 90%, transparent 0);
+  }
+  .row .col:nth-child(2) .skill {
+    background: conic-gradient(cyan 80%, transparent 0);
+  }
+  .row .col:nth-child(3) .skill {
+    background: conic-gradient(cyan 70%, transparent 0);
+  }
+  .row .col:nth-child(4) .skill {
+    background: conic-gradient(cyan 85%, transparent 0);
+  }
+  
+  .row .col .skill::before {
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: 85%;
+    background:black;
+    border-radius: 50%;
+  }
+  
+  .row .col .content {
+    color:cyan;
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    user-select: none;
+  }
+  .row{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:space-evenly;
+   gap: 20px;
+  }
+  .col{
+    text-align: center;
+  }
+  .col h3{
+    font-size: 22px;
+    margin-top: 18px;
+  }
+ /* media query */
+ @media (max-width: 1150px){
+  .ProfessionalSkill{
+    width: 100%;
+  }
+  .technicalSkill{
+    width: 100%;
+ 
+  }
+  .technicalSkilldiv{
+    justify-content: center;
+    flex-wrap: wrap;
+ gap: 10px;
+
+  }
+   
+  .skillContent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+ }

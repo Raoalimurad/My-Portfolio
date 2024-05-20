@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.main{
+    background:rgb(11, 0, 37 );
+    width: 100%;
+  
+}
+/* rgb(11, 0, 37 */
+
+.circular-wrap{
+    width:150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+}
