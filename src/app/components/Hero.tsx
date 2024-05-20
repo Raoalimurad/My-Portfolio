@@ -19,7 +19,7 @@ const Hero = () => {
   return ( 
     <div  className={style.hero} id='home'>
         <div className={` ${style.info} animate__animated animate__backInLeft `}>
-             <h3 >Hello It's Me</h3>
+             <h3 >Hello It&apos;s Me</h3>
              <h1>Rao Ali Murad</h1>
             <h3>And I'm a <div className={style.typingAnimationcontainer}><span className={style.typingAnimation}>Mern Stack Developer</span></div></h3>
 
