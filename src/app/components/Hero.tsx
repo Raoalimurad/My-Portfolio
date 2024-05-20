@@ -21,9 +21,9 @@ const Hero = () => {
         <div className={` ${style.info} animate__animated animate__backInLeft `}>
              <h3 >Hello It&apos;s Me</h3>
              <h1>Rao Ali Murad</h1>
-            <h3>And I'm a <div className={style.typingAnimationcontainer}><span className={style.typingAnimation}>Mern Stack Developer</span></div></h3>
+            <h3>And I&apos;m a <div className={style.typingAnimationcontainer}><span className={style.typingAnimation}>Mern Stack Developer</span></div></h3>
 
-             <p>I'm a web Developer with extensive experience in building dynamic and user-friendly web applications. My expertise lies in utilizing the MERN (MongoDB, Express.js, React.js, Node.js) stack to develop robust and scalable solutions.</p>
+             <p>I&apos;m a web Developer with extensive experience in building dynamic and user-friendly web applications. My expertise lies in utilizing the MERN (MongoDB, Express.js, React.js, Node.js) stack to develop robust and scalable solutions.</p>
              <div className={style.socialIcon}>
 
              <a href="https://pk.linkedin.com/in/rao-ali-murad-996a77257" target='blank'>
